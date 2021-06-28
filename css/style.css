@@ -131,7 +131,7 @@ img {
 .contakt .contakt-item + .contakt-item {
   margin-left: 50px;
 }
-/* ====hero section==== */
+/* ==================hero section============= */
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -158,14 +158,7 @@ img {
 
   color: #ffffff;
 }
-.hero-btn {
-  /* display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  background: #2196f3; */
-}
+
 .modal-btn {
   display: flex;
   align-items: center;
@@ -192,19 +185,23 @@ img {
 }
 
 /* identical to box height, or 187% */
+/*========================END HERO=================*/
 
-/*========ПОЧЕМУ МЫ=========*/
+/*=========================ПОЧЕМУ МЫ===================*/
 .why-we-section {
   width: 1600px;
   height: 102px;
-  padding: 0;
-  margin: 0;
+  /* padding: 0;
+  margin: 0; */
+  background: coral;
 }
 .why-we {
   display: flex;
   justify-content: space-between;
 }
 .why-we-title {
+  /* margin-bottom: 50px; */
+
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -228,9 +225,13 @@ img {
 .why-we-block:not(:last-child) {
   margin-right: 30px;
 }
+/*==================END WHY WE=================*/
+
+/*================= ACTIVITIES ==================*/
 .activities {
   width: 1600px;
   height: 386px;
+  background: chartreuse;
 }
 
 .activities-title .team-title {
@@ -252,12 +253,24 @@ img {
 }
 .activities-list {
   display: flex;
-  justify-content: center;
-
+  justify-items: baseline;
   justify-content: space-between;
 }
 .activities-list:not(:last-child) {
   margin-right: 30px;
+}
+/*=============== AND ACTIVITIES ==========*/
+
+/*=================TEAM SECTION==============*/
+.team-section {
+}
+.team-group {
+  width: 1600px;
+  height: 648px;
+  background-color: #f5f4fa;
+}
+.team-list {
+  display: flex;
 }
 .team-participant {
   font-family: "Roboto", sans-serif;
