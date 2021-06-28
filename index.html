@@ -16,58 +16,75 @@
 <body>
     <!--HEADER-->
     <header class="head">
-        <!--NAVI-->
-        <nav class="navigation">
+        <div class="container">
+            <div class="head-box">
             <a class="logo-link list" href="" target="_blank" lang="eu">Web<span class="logo-studio">Studio</span></a>
-            <ul class="menu">
-
-                <li class="menu-item link"><a class="menu-link-bl list" href="" target="_blank">Студия </a></li>
+                <!--NAVI-->
+            <nav class="navigation">
+             <ul class="menu">
+                <li class="menu-item link"><a class="menu-link menu-link-activ list" href="" target="_blank">Студия </a></li>
                 <li class="menu-item link"> <a class="menu-link list" href="" target="_blank">Портфолио</a></li>
                 <li class="menu-item link"><a class="menu-link list" href="" target="_blank">Контакты</a></li>
+              </ul>
+            </nav>
+            <ul class="contakt">
+              <li class="contakt-item link"><a class="mailto-link list" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+              <li class="contakt-item link"><a class="tel-link list" href="tel:+380961111111">+380961111111</a></li>
             </ul>
-        </nav>
-        <a class="mailto-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="tel-link list" href="tel:+380961111111">+380961111111</a>
+            </div>
+        </div>
     </header>
     <main>
         <!--HERO-->
-        <section class="hero-section">
-            <h1 class="hero-title">эффективные решения<br /> для вашего бизнеса </h1>
-            <button type="button" class="modal-btn">заказать услугу</button>
+        <section class="section-hero">
+            <div class="container">
+               
+                <h1 class="hero-title">эффективные решения<br> для вашего бизнеса </h1>
+                <button type="button" class="modal-btn">заказать услугу</button>
+            
+            </div>
         </section>
         <!--Почему мы-->
-        <section class="section-why">
-            <h3 hidden>наши особенности</h3>
-            <ul class="why-we link">
-                <li>
+        <section class="why-we-section">
+            <div class="container section">
+             <h3 hidden>наши особенности</h3>
+             <ul class="why-we link">
+                <li class="why-we-block">
                     <h4 class="why-we-title">внимание к деталям</h4>
                     <p class="why-we-text">Идейные соображения, а также начало повседневной работы по формированию
                         позиции.</p>
                 </li>
-                <li>
+                <li class="why-we-block">
                     <h4 class="why-we-title">Пунктуальность</h4>
                     <p class="why-we-text">Задача организации, в особенности же рамки и место обучения кадров влечет за
                         собой.</p>
                 </li>
-                <li>
+                <li class="why-we-block">
                     <h4 class="why-we-title">Планирование</h4>
                     <p class="why-we-text">Равным образом консультация с широким активом в значительной степени
                         обуславливает.</p>
                 </li>
-                <li>
+                <li class="why-we-block">
                     <h4 class="why-we-title">Современные технологии</h4>
                     <p class="why-we-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                     </p>
                 </li>
-            </ul>
+             </ul>
+            </div>
         </section>
-        <section class="activities">
-            <h2 class="activities-title">Чем мы занимаемся</h2>
-            <img src="./images/picture/img-1.jpg" width="370" height="290" alt="рабочий стол спланшетом">
-            <img src="./images/picture/img-2.jpg" width="370" height="290" alt="рабочий стол с ноутбуком">
-            <img src="./images/picture/img-3.jpg" width="370" height="290" alt="работа с планшетом">
+        <!--Чем мы занимаемся, activities-->
+        <section class="activities section">
+            <div class="container">
+                <h2 class="activities-title">Чем мы занимаемся</h2>
+              <ul class="activities-list">
+                <li class="activities-img link"><img src="./images/picture/img-1.jpg" width="370" height="290" alt="рабочий стол спланшетом"></li>
+                <li class="activities-img link"><img src="./images/picture/img-2.jpg" width="370" height="290" alt="рабочий стол с ноутбуком"></li>
+                <li class="activities-img link"><img src="./images/picture/img-3.jpg" width="370" height="290" alt="работа с планшетом"></li>
+                </ul>
+            </div>
         </section>
-        <section class="team">
+        <!--наша команда, team-->
+        <section class="section">
             <h2 class="team-title">наша команда</h2>
             <ul class="team-list link">
                 <li><img src="./images/fotos/foto-1.jpg" width="270" height="260" alt="фото Демьяненко">

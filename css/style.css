@@ -1,10 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
 .list {
   text-decoration: none;
+  padding: 0px;
+  margin: 0px;
 }
 .link {
   list-style: none;
 }
+.head {
+  width: 1600px;
+  height: 80px;
+  margin-top: 24px;
+  border-bottom: 1px solid #ffffff;
+  background-color: aqua;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.head-box {
+  display: flex;
+  align-items: center;
 
+  /* margin-bottom: 0px;
+  margin-right: 0px; */
+}
+
+.navigation {
+  /* display: flex; */
+}
 .logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -14,12 +62,26 @@
 
   letter-spacing: 0.03em;
   color: #2196f3;
+  width: 145px;
+  height: 31px;
 }
 
 .logo-studio {
   color: #000000;
 }
+.logo-link:focus,
+.logo-link:hover {
+  text-decoration: underline;
+}
 /* logo end */
+.menu {
+  display: flex;
+  margin-left: 93px;
+}
+.menu .menu-item + .menu-item {
+  margin-left: 50px;
+}
+
 .menu-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -29,12 +91,17 @@
 
   color: #212121;
 }
-.menu-link-b {
+.menu-link-activ {
   color: #2196f3;
 }
+
 .menu-link:hover,
 .menu-link:focus {
   color: #2196f3;
+}
+.contakt {
+  display: flex;
+  margin-left: auto;
 }
 .mailto-link {
   font-family: "Roboto", sans-serif;
@@ -44,8 +111,13 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
 
+  color: #757575;
+}
+.mailto-link:hover,
+.mailto-link:focus {
   color: #2196f3;
 }
+
 .tel-link {
   font-family: "Roboto", sans-serif;
 
@@ -56,8 +128,24 @@
 
   color: #757575;
 }
+.contakt .contakt-item + .contakt-item {
+  margin-left: 50px;
+}
 /* ====hero section==== */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section-hero {
+  width: 1600px;
+  height: 600px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #2f303a;
+}
 .hero-title {
+  padding-top: 191px;
+
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
@@ -68,27 +156,56 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  /* color: #ffffff; */
+  color: #ffffff;
 }
-.modal-btn {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.88;
-
-  /* identical to box height, or 187% */
-
-  display: flex;
+.hero-btn {
+  /* display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3; */
+}
+.modal-btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
 
+  padding-top: 10px;
+  padding-left: 32px;
+  padding-bottom: 10px;
+  padding-right: 32px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  letter-spacing: 0.06em;
   color: #ffffff;
   background: #2196f3;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background: #188ce8;
+}
+
+/* identical to box height, or 187% */
+
+/*========ПОЧЕМУ МЫ=========*/
+.why-we-section {
+  width: 1600px;
+  height: 102px;
+  padding: 0;
+  margin: 0;
+}
+.why-we {
+  display: flex;
+  justify-content: space-between;
 }
 .why-we-title {
   font-family: "Roboto", sans-serif;
-
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -99,7 +216,6 @@
 }
 .why-we-text {
   font-family: "Roboto", sans-serif;
-
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -109,7 +225,15 @@
 
   color: #757575;
 }
-.activities-title.team-title {
+.why-we-block:not(:last-child) {
+  margin-right: 30px;
+}
+.activities {
+  width: 1600px;
+  height: 386px;
+}
+
+.activities-title .team-title {
   font-family: "Roboto", sans-serif;
 
   font-weight: 700;
@@ -119,6 +243,21 @@
   letter-spacing: 0.03em;
 
   color: #212121;
+}
+.activities-title {
+  padding-left: 412px;
+  margin-bottom: 50px;
+}
+.activities-img {
+}
+.activities-list {
+  display: flex;
+  justify-content: center;
+
+  justify-content: space-between;
+}
+.activities-list:not(:last-child) {
+  margin-right: 30px;
 }
 .team-participant {
   font-family: "Roboto", sans-serif;
