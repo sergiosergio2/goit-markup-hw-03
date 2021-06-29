@@ -21,6 +21,10 @@ ol {
 img {
   display: block;
 }
+/* body{
+ width: 1600px;
+} */
+
 .list {
   text-decoration: none;
   padding: 0px;
@@ -41,6 +45,7 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  justify-content: space-between;
 }
 .head-box {
   display: flex;
@@ -163,7 +168,6 @@ img {
   display: flex;
   align-items: center;
   text-align: center;
-
   padding-top: 10px;
   padding-left: 32px;
   padding-bottom: 10px;
@@ -178,6 +182,8 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  margin: auto;
+  margin-top: 35px;
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -193,7 +199,7 @@ img {
   height: 102px;
   /* padding: 0;
   margin: 0; */
-  background: coral;
+  
 }
 .why-we {
   display: flex;
@@ -230,8 +236,8 @@ img {
 /*================= ACTIVITIES ==================*/
 .activities {
   width: 1600px;
-  height: 386px;
-  background: chartreuse;
+  /*height: 386px;*/
+  
 }
 
 .activities-title .team-title {
@@ -292,6 +298,8 @@ img {
 }
 
 .team-title {
+  display: flex;
+  justify-content: center;
   margin-bottom: 50px;
 
   font-family: "Roboto", sans-serif;
