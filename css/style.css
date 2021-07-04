@@ -1,3 +1,16 @@
+:root {
+  --primary-color:#212121;
+  --text-color:#757575;
+  --accent-color:#2196F3;
+  
+
+}
+body {
+  background-color: #ffffff;
+font-family: 'Roboto', sans-serif;
+color: var(--primary-color);
+}
+
 *,
 *::before,
 *::after {
@@ -38,7 +51,7 @@ img {
   height: 80px;
   margin-top: 24px;
   border-bottom: 1px solid #ffffff;
-  background-color: aqua;
+  
 }
 .container {
   width: 1200px;
@@ -50,17 +63,11 @@ img {
 .head-box {
   display: flex;
   align-items: center;
-  
-
-  /* margin-bottom: 0px;
-  margin-right: 0px; */
 }
 
 .navigation {
   display: flex;
   height: 80px;
-  
-
   
 }
 .logo-link {
@@ -71,9 +78,8 @@ img {
   /* identical to box height */
 
   letter-spacing: 0.03em;
-  color: #2196f3;
-  width: 145px;
-  height: 31px;
+  color: var(--accent-color)
+  
 }
 
 .logo-studio {
@@ -96,50 +102,49 @@ img {
 }
 
 .menu-link {
-  font-family: "Roboto", sans-serif;
+ 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: var(--primary-color);
 }
 .menu-link-activ {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .menu-link:hover,
 .menu-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .contakt {
   display: flex;
   margin-left: auto;
 }
 .mailto-link {
-  font-family: "Roboto", sans-serif;
-
+  
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--text-color);
 }
 .mailto-link:hover,
 .mailto-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .tel-link {
-  font-family: "Roboto", sans-serif;
+  
 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--text-color);
 }
 .contakt .contakt-item + .contakt-item {
   margin-left: 50px;
@@ -159,7 +164,7 @@ img {
 .hero-title {
   padding-top: 191px;
 
-  font-family: "Roboto", sans-serif;
+ 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -184,9 +189,9 @@ img {
   border-radius: 4px;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background: #2196f3;
+  background: var(--accent-color);
 
-  font-family: "Roboto", sans-serif;
+  
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -216,17 +221,17 @@ img {
 .advantages-list-title {
   /* margin-bottom: 50px; */
 
-  font-family: "Roboto", sans-serif;
+  
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--primary-color);
 }
 .advantages-text {
-  font-family: "Roboto", sans-serif;
+  
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -234,7 +239,7 @@ img {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--text-color);
 }
 .advantages-block:not(:last-child) {
   margin-right: 30px;
@@ -249,21 +254,20 @@ img {
 }
 
 .skills-title .team-title {
-  font-family: "Roboto", sans-serif;
-
+ 
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--primary-color);
 }
 .skills-title {
   padding-left: 412px;
   margin-bottom: 50px;
 
-  font-family: "Roboto", sans-serif;
+  
   font-style: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -271,7 +275,7 @@ img {
   align: Center;
   vertical-align: Top;
   letter-spacing: 3%;
-  color: #212121;
+  color: var(--primary-color);
 }
 
 .skills-list {
@@ -309,7 +313,7 @@ img {
   justify-content: center;
   margin-bottom: 50px;
 
-  font-family: "Roboto", sans-serif;
+  
   font-style: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -317,12 +321,12 @@ img {
   align: Center;
   vertical-align: Top;
   letter-spacing: 3%;
-  color: #212121;
+  color: var(--primary-color);
 }
 .team-names {
   margin-top: 30px;
   margin-bottom: 10px;
-  font-family: "Roboto", sans-serif;
+  
 
   font-weight: 500;
   font-size: 16px;
@@ -332,10 +336,10 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--primary-color);
 }
 .team-professions {
-  font-family: "Roboto", sans-serif;
+  
 
   font-weight: 400;
   font-size: 16px;
@@ -345,7 +349,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--text-color);
 }
 .footer {
   width: 1600px;
@@ -364,12 +368,12 @@ img {
 
   letter-spacing: 0.03em;
 
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .address-post {
-  font-family: "Roboto", sans-serif;
+  margin-bottom: 9px;
 
-  font-weight: 400;
+   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
@@ -378,30 +382,29 @@ img {
 
   color: #ffffff;
 }
+
+.address-tel,
+.address-mail { 
+  display: block;
+ font-style: normal;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
 .address-mail {
-  font-family: "Roboto", sans-serif;
-
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
 }
-.address-tel {
-  font-family: "Roboto", sans-serif;
-
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
+.address-tel:hover,
+.address-mail:hover {
+  cursor: inherit;
 }
+/* ===============ПОРТФОЛИО========== */
 .work-section {
   width: 1600px;
 }
@@ -421,8 +424,8 @@ margin-bottom: 34px;
 cursor: pointer;
 
 
-Font-family: "Roboto", sans-serif;
-Font-style: Medium;
+
+Font-style: 500px;
 Font-size: 16px;
 Line-height: 26px;
 Line-height: 139%;
@@ -433,12 +436,12 @@ Letter-spacing: 3%;
 }
 .work-menu-btn-text:focus {
   color: #ffffff;
-  background: #2196f3;
+  background: var(--accent-color);
   /* border: #ffffff; */
 }
 .work-menu-btn-text:hover {
   color: #ffffff;
-  background: #2196f3;
+  background: var(--accent-color);
 }
 
 
@@ -468,7 +471,7 @@ Letter-spacing: 3%;
 }
 .client-title {
   margin-top: 36px;
-  font-family: "Roboto", sans-serif;
+ 
 
   font-weight: 700;
   font-size: 18px;
@@ -477,10 +480,10 @@ Letter-spacing: 3%;
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--primary-color);
 }
 .client-order {
-  font-family: "Roboto", sans-serif;
+  
 
   font-weight: 400;
   font-size: 16px;
@@ -489,7 +492,7 @@ Letter-spacing: 3%;
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--text-color);
 }
 .logo-studio-footer {
   color: #ffffff;
