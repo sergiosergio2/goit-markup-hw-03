@@ -400,10 +400,7 @@ img {
 .address-mail {
   margin-bottom: 9px;
 }
-.address-tel:hover,
-.address-mail:hover {
-  cursor: inherit;
-}
+
 /* ===============ПОРТФОЛИО========== */
 .work-section {
   width: 1600px;
