@@ -54,9 +54,10 @@ img {
 
 .head {
     width: 1600px;
-    height: 80px;
-    margin-top: 24px;
-    border-bottom: 1px solid #ffffff;
+    margin: 0 auto;
+   border-bottom: 1px solid #ffffff;
+   padding-top: 32px;
+   padding-bottom: 32px;
 }
 
 .container {
@@ -64,17 +65,19 @@ img {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    justify-content: space-between;
+   
 }
 
 .head-box {
     display: flex;
     align-items: center;
+    margin: 0 auto;
 }
 
 .navigation {
     display: flex;
-    height: 80px;
+    
+    margin-left: 93px;
 }
 
 .logo-link {
@@ -100,10 +103,10 @@ img {
 .menu {
     display: flex;
     align-items: center;
-    margin-left: 93px;
+    
 }
 
-.menu .menu-item+.menu-item {
+.menu .menu-item +.menu-item {
     margin-left: 50px;
 }
 
@@ -164,14 +167,17 @@ img {
 
 .hero {
     width: 1600px;
-    height: 600px;
-    margin: 0px;
-    padding: 0px;
+   
+    margin: 0px auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-color: #2f303a;
 }
 
 .hero-title {
-    padding-top: 191px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -186,11 +192,8 @@ img {
     display: flex;
     align-items: center;
     text-align: center;
-    padding-top: 10px;
-    padding-left: 32px;
-    padding-bottom: 10px;
-    padding-right: 32px;
-    border: 1px solid #000000;
+    padding: 10px 32px;
+    border: none;
     border-radius: 4px;
     letter-spacing: 0.06em;
     color: #ffffff;
@@ -198,12 +201,13 @@ img {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 35px;
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
+    cursor: pointer;
     background: #188ce8;
 }
 
@@ -218,7 +222,9 @@ img {
 
 .advantages {
     width: 1600px;
-    height: 102px;
+    margin: 0 auto;
+    
+    
     /* padding: 0;
   margin: 0; */
 }
@@ -229,7 +235,7 @@ img {
 }
 
 .advantages-list-title {
-    /* margin-bottom: 50px; */
+    
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -239,6 +245,7 @@ img {
 }
 
 .advantages-text {
+    margin-top: 10px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -259,10 +266,12 @@ img {
 
 .skills {
     width: 1600px;
-    /*height: 386px;*/
+    margin: 0 auto;
+  
 }
 
-.skills-title .team-title {
+.skills-title {
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -270,24 +279,11 @@ img {
     letter-spacing: 0.03em;
     color: var(--primary-color);
 }
-
-.skills-title {
-    padding-left: 412px;
-    margin-bottom: 50px;
-    font-style: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    line-height: 100%;
-    align: Center;
-    vertical-align: Top;
-    letter-spacing: 3%;
-    color: var(--primary-color);
-}
-
 .skills-list {
     display: flex;
     justify-items: baseline;
     justify-content: space-between;
+    margin: auto;
 }
 
 .skills-list:not(:last-child) {
@@ -300,10 +296,11 @@ img {
 
 /*=================TEAM SECTION==============*/
 
-.team-section {}
+
 
 .team {
-    height: 648px;
+    margin: auto;
+  
     background-color: #f5f4fa;
 }
 
@@ -311,15 +308,19 @@ img {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
-    margin-top: -30px;
+    /* margin-top: -30px; */
 }
 
 .team-item {
     margin-left: 30px;
-    margin-top: 30px;
+   background: #ffffff;
+}
+.team-image {
+    margin-bottom:30px ;
 }
 
 .team-title {
+    
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
@@ -327,14 +328,14 @@ img {
     font-size: 36px;
     line-height: 1.17;
     line-height: 100%;
-    align: Center;
+    text-align: Center;
     vertical-align: Top;
     letter-spacing: 3%;
     color: var(--primary-color);
 }
 
 .team-names {
-    margin-top: 30px;
+    
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -345,7 +346,8 @@ img {
     color: var(--primary-color);
 }
 
-.team-professions {
+.team-professions { 
+    padding-bottom: 90px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -355,15 +357,17 @@ img {
     color: var(--text-color);
 }
 
-.footer {
+footer {
     width: 1600px;
-    height: 252px;
+    margin: auto;
+    padding: 60px 0px;
+    
     background-color: #2f303a;
 }
 
 .logo-footer {
     margin-bottom: 20px;
-    padding-top: 60px;
+    
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -375,6 +379,7 @@ img {
 
 .address-post {
     margin-bottom: 9px;
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -383,7 +388,7 @@ img {
     color: #ffffff;
 }
 
-.address-subinfo {
+.address-mail , .address-tel {
     display: block;
     font-style: normal;
     font-weight: 400;
@@ -401,27 +406,36 @@ img {
 
 /* ===============ПОРТФОЛИО========== */
 
-.work-section {}
+.work-section {
+    width: 1600px;
+    margin: auto;
+}
 
 .work-menu {
     display: flex;
     justify-content: center;
-    margin-top: 94px;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
+
+    
+}
+.work-menu-btn {
+   
 }
 
 .work-menu-btn:not(:last-child) {
     margin-right: 8px;
 }
 
-.work-menu-btn-text {
-    border: 0px;
+.work-menu-btn-text { 
+    padding: 6px 22px;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
     Font-style: 500px;
     Font-size: 16px;
     Line-height: 26px;
-    Line-height: 139%;
-    Align: Center;
+    Line-height: 1.63;
+    text-align: Center;
     Vertical-align: Top;
     Letter-spacing: 3%;
 }
@@ -440,10 +454,10 @@ img {
 
 /* =========Карточки клиентов========= */
 
-.client-section {}
+
 
 .client-block {
-    padding-bottom: 94px;
+    /* padding-bottom: 94px; */
 }
 
 .client {
@@ -457,9 +471,12 @@ img {
     margin-left: 30px;
     margin-top: 30px;
 }
+.client-info {
+    padding: 20px 24px;
+}
 
 .client-title {
-    margin-top: 36px;
+    
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
