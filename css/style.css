@@ -210,7 +210,7 @@ img {
 /*=========================ПОЧЕМУ МЫ===================*/
 
 .advantages {
-  width: 1200px;
+  width: 1600px;
   margin: 0 auto;
 
   /* padding: 0;
@@ -250,7 +250,7 @@ img {
 /*================= ACTIVITIES ==================*/
 
 .skills {
-  width: 1200px;
+  width: 1600px;
   margin: 0 auto;
   padding-bottom: 94px;
 }
@@ -280,7 +280,7 @@ img {
 /*=================TEAM SECTION==============*/
 
 .team {
-  width: 1200px;
+  width: 1600px;
   margin: auto;
   background-color: #f5f4fa;
 }
